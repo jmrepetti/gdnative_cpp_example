@@ -14,3 +14,4 @@ zconf.h.included
 *.TMP
 logs
 Thumbs.db
+godot-cpp
