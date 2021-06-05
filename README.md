@@ -15,11 +15,22 @@ Depending on your OS there will be different ways of installing this tools
     * scons (https://scons.org/)
     * a C++ compiler 
 
+## TL;TR Linux example
+
+    git clone https://github.com/jmrepetti/gdnative_cpp_example.git
+    cd gdnative_cpp_example 
+    git clone --recursive -b 3.3 https://github.com/godotengine/godot-cpp
+    cd godot-cpp
+    scons platform=linux generate_bindings=yes -j4
+    cd ..    
+    scons platform=linux
+
+Import the project under 'demo' folder with Godot Editor and Run.
+
 
 ## Clone this repository
 
     git clone https://github.com/jmrepetti/gdnative_cpp_example.git
-
 
 ## Build C++ bindings
 
