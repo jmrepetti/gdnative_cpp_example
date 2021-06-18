@@ -2,8 +2,7 @@ GDNative C++ Example
 ====================
 
 This repository contains the example GDNative C++ library in support of this tutorial:
-http://docs.godotengine.org/en/latest/tutorials/plugins/gdnative/gdnative-cpp-example.html
-
+https://docs.godotengine.org/en/stable/tutorials/plugins/gdnative/gdnative-cpp-example.html
 
 # USAGE
 
